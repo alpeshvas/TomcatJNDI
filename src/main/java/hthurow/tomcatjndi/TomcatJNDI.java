@@ -90,7 +90,7 @@ See also javax.naming.spi.NamingManager.getURLContext() */
     /** set context directly
     *
     */
-    public TomcatJNDICustom setContext(StandardContext context){
+    public TomcatJNDI setContext(StandardContext context){
         standardContext = context;
         return this;
     }
